@@ -8,7 +8,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://web.whatsapp.com/')
 time.sleep(30)                  #tempo de espera para ler o qrcode
 
-contatos = ['teste.py']         #nome dos contatos(tem que ser exatamente igual)
+contatos = ['teste.py', 'My']         #nome dos contatos(tem que ser exatamente igual)
 mensagem = []
 
 
