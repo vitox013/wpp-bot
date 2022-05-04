@@ -25,6 +25,11 @@
  
  </div>
  
+ ## Executar o bot
+ 
+ Após todas as instalações, clonar esse repositório e executar o arquivo **"wpp-bot.py'**. <br>
+ Caso queira utilizar um arquivo txt de sua preferência, basta ir na linha 25 do código e alterar o 'lista.txt" para o nome do seu arquivo ou diretório do arquivo.
+ 
  ## Preview
 
 ![gif](https://raw.githubusercontent.com/vitox013/wpp-bot/main/gifwpp-bot.gif)
