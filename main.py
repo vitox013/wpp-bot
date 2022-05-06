@@ -1,8 +1,11 @@
 from numpy import append
 from selenium import webdriver
 import time
+from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+
 
 repetir = 1
 prim_vez = 1
@@ -22,23 +25,23 @@ while(repetir):
 
     
     if(prim_vez):
-        driver = webdriver.Chrome(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         driver.get('https://web.whatsapp.com/')
-        print('30 Segundos para scanear o QRCODE\n')
+        print('Leia o QRCODE para entrar no WhatsApp\n')
         qrcode = 0
         while(qrcode != 1):
-            qrcode = int(input('Já leu o QRCODE?\n 1 - SIM\n 0 - NAO\n'))
+            qrcode = int(input('\nJá leu o QRCODE?\n 1 - SIM\n 0 - NAO\n'))
 
 
     def buscar_contato(contato):
-        campo_pesquisa = driver.find_element_by_xpath('//div[contains(@class,"copyable-text selectable-text")]')
+        campo_pesquisa = driver.find_element(By.XPATH,'//div[contains(@class,"copyable-text selectable-text")]')
         time.sleep(3)
         campo_pesquisa.click()
         campo_pesquisa.send_keys(contato)
         campo_pesquisa.send_keys(Keys.ENTER)
 
     def enviar_mensagem():
-        campo_mensagem = driver.find_elements_by_xpath('//div[contains(@class,"copyable-text selectable-text")]')
+        campo_mensagem = driver.find_elements(By.XPATH,'//div[contains(@class,"copyable-text selectable-text")]')
         campo_mensagem[1].click()
         with open(nome_txt, 'r') as arquivo:
             for mensagem in arquivo:
