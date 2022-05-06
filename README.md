@@ -56,8 +56,10 @@
  ```
 
  ## Preview
+ 
+![gifwpp-bot](https://user-images.githubusercontent.com/85710199/167051785-a63ec25d-b712-4aff-9f3f-d8a6d62d94e2.gif)
 
-![gif](https://raw.githubusercontent.com/vitox013/wpp-bot/main/gifwpp-bot.gif)
+
 
 Caso queira visualizar na velocidade real é só clicar no ícone abaixo:<br> 
 [![Youtube Badge](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=A3RPoNRcsJ4)
