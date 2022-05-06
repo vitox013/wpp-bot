@@ -66,7 +66,7 @@
  * ### Windows
  Após todas as instalações, executar o arquivo **run.bat** ou digitar no terminal:
  ```shell
- python main.py
+ python wpp-bot.py
  ```
 
  ## Preview
