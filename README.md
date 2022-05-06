@@ -30,7 +30,7 @@
  * Abrir o terminal e instalar o [selenium](https://www.selenium.dev/) digitando:
  
  ```shell
- pip install selenium
+ pip install selenium==4.1.4
  ```
  * No mesmo terminal instalar o [webdriver_manager](https://pypi.org/project/webdriver-manager/) digitando:
  ```shell
