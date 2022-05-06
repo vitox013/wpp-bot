@@ -26,11 +26,17 @@
  
  ### Windows
  
-  * Vá até uma pasta de sua preferência e digite: 
+  * Vá até uma pasta de sua preferência e digite no terminal: 
  ```shell
  git clone https://github.com/vitox013/wpp-bot.git
  ```
  * Será necessario ter o [python3](https://www.python.org/downloads/) instalado **e na instalação ter marcado a opção "add python to PATH"**
+ #### Instalação Automática :robot:
+ * Entrar na pasta "windows" e executar o arquivo **install-requirements.bat**, no qual irá instalar o que é necessário automaticamente.
+ 
+ #### Instalação Manual 🧑‍🏭
+ Caso queira instalar por conta própria basta:
+ 
  * Abrir o terminal e instalar o [selenium](https://www.selenium.dev/) digitando:
  
  ```shell
@@ -58,7 +64,7 @@
  ```
  
  * ### Windows
- Após todas as instalações, abra o terminal na pasta do bot e digite:
+ Após todas as instalações, executar o arquivo **run.bat** ou digitar no terminal:
  ```shell
  python main.py
  ```
