@@ -40,6 +40,10 @@
  ```shell
  pip install webdriver_manager
  ```
+ * Instalar uma biblioteca do python chamada **numpy** digitando:
+ ```shell
+ pip install numpy
+ ```
  
  
  
