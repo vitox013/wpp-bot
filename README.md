@@ -26,6 +26,10 @@
  
  ### Windows
  
+  * Vá até uma pasta de sua preferência e digite: 
+ ```shell
+ git clone https://github.com/vitox013/wpp-bot.git
+ ```
  * Será necessario ter o [python3](https://www.python.org/downloads/) instalado **e na instalação ter marcado a opção "add python to PATH"**
  * Abrir o terminal e instalar o [selenium](https://www.selenium.dev/) digitando:
  
