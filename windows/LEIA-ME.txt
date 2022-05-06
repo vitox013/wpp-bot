@@ -1,0 +1,7 @@
+Para rodar o bot é necessário ter o Python instalado.
+
+1° Passo é executar o arquivo "install-requirements.bat" que vai instalar o que é preciso para rodar o bot.
+
+Vai ser instalado o selenium, webdriver_manager e uma biblioteca de python chamado "numpy".
+
+Após isso é só executar o arquivo "wpp-bot.exe"
