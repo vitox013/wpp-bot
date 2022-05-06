@@ -13,7 +13,7 @@
  * Será necessario ter o [python3](https://www.python.org/downloads/) instalado (já vem pré-instalado no Ubuntu 20.04 e outras versões do debian linux)
  * Instalar o [selenium](https://www.selenium.dev/), abra seu terminal e digite:
  ```shell
- sudo pip3 install selenium
+ sudo pip3 install selenium==4.1.4
  ```
  * Instalar o [webdriver_manager](https://pypi.org/project/webdriver-manager/), abra seu terminal e digite:
  ```shell
