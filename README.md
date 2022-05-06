@@ -1,4 +1,4 @@
-# wpp-bot
+# WhatsApp Bot :robot:
  Um bot simples de envio de mensagens em massa a partir de um arquivo txt para N contatos
  
  ## Instalações necessárias
@@ -6,11 +6,19 @@
 <div>
  
  ### Linux
-
- - Será necessario ter o [python3](https://www.python.org/downloads/) instalado (já vem pré-instalado no Ubuntu 20.04 e outras versões do debian linux)
- - Ter um editor de código (recomendo o [Vscode](https://code.visualstudio.com/))
- - Instalar o [selenium](https://www.selenium.dev/): `$ sudo pip3 install selenium`
- - Instalar o [webdriver_manager](https://pypi.org/project/webdriver-manager/): `$ sudo pip3 install webdriver_manager`
+ * Vá até uma pasta de sua preferência e digite: 
+ ```shell
+ git clone https://github.com/vitox013/wpp-bot.git
+ ```
+ * Será necessario ter o [python3](https://www.python.org/downloads/) instalado (já vem pré-instalado no Ubuntu 20.04 e outras versões do debian linux)
+ * Instalar o [selenium](https://www.selenium.dev/), abra seu terminal e digite:
+ ```shell
+ sudo pip3 install selenium
+ ```
+ * Instalar o [webdriver_manager](https://pypi.org/project/webdriver-manager/), abra seu terminal e digite:
+ ```shell
+ sudo pip3 install webdriver_manager
+ ```
  
  </div>
  <hr>
@@ -18,20 +26,42 @@
  
  ### Windows
  
- - Será necessario ter o [python3](https://www.python.org/downloads/) instalado **e na instalação ter marcado a opção "add python to PATH"**
- - Ter um editor de código (recomendo o [Vscode](https://code.visualstudio.com/))
- - Abrir o terminal do Vscode e instalar o [selenium](https://www.selenium.dev/): copiar essa linha de codigo `pip install selenium` e colar no terminal <br> 
- e no mesmo terminal instalar o [webdriver_manager](https://pypi.org/project/webdriver-manager/): `pip install webdriver_manager`
+ * Será necessario ter o [python3](https://www.python.org/downloads/) instalado **e na instalação ter marcado a opção "add python to PATH"**
+ * Abrir o terminal e instalar o [selenium](https://www.selenium.dev/) digitando:
+ 
+ ```shell
+ pip install selenium
+ ```
+ * No mesmo terminal instalar o [webdriver_manager](https://pypi.org/project/webdriver-manager/) digitando:
+ ```shell
+ pip install webdriver_manager
+ ```
+ 
+ 
  
  </div>
  
  ## Executar o bot
+ * ### Linux
+ Após todas as instalações, abra o terminal na pasta do bot e digite: 
  
- Após todas as instalações, clonar esse repositório e executar o arquivo **"wpp-bot.py'**. <br>
- Caso queira utilizar um arquivo txt de sua preferência, basta ir na linha 25 do código e alterar o 'lista.txt" para o nome do seu arquivo ou diretório do arquivo.
+ ```shell
+ ./run.sh
+ ```
  
+ * ### Windows
+ Após todas as instalações, abra o terminal na pasta do bot e digite:
+ ```shell
+ python main.py
+ ```
+
  ## Preview
+ 
+![gifwpp-bot](https://user-images.githubusercontent.com/85710199/167051785-a63ec25d-b712-4aff-9f3f-d8a6d62d94e2.gif)
 
-![gif](https://raw.githubusercontent.com/vitox013/wpp-bot/main/gifwpp-bot.gif)
 
-Caso queira visualizar na velocidade real é só ver o video no link abaixo:<br> https://www.youtube.com/watch?v=A3RPoNRcsJ4
+
+Caso queira visualizar na velocidade real é só clicar no ícone abaixo:<br> 
+[![Youtube Badge](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=A3RPoNRcsJ4)
+
+
