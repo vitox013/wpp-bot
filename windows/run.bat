@@ -1,1 +1,1 @@
-python wpp-bot.py
+python main.py
