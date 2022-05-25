@@ -56,6 +56,8 @@
  </div>
  
  ## Executar o bot
+ * ### Colocar o arquivo txt escolhido dentro da pasta "listasTXT"
+ 
  * ### Linux
  Após todas as instalações, abra o terminal na pasta do bot e digite: 
  
@@ -66,7 +68,7 @@
  * ### Windows
  Após todas as instalações, executar o arquivo **run.bat** ou digitar no terminal:
  ```shell
- python wpp-bot.py
+ python main.py
  ```
 
  ## Preview
